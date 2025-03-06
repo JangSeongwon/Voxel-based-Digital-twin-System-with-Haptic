@@ -1,4 +1,4 @@
-# Digital-Twin 
+# I2CPS Digital-Twin 
 Haptic - Unity - ROS 
 
 --------------------------
