@@ -12,14 +12,15 @@ Use Assets: https://assetstore.unity.com/packages/tools/integration/haptics-dire
 3. Haptic Initializer : [Initialization_Haptic]
 4. Voxel Initializer : [Chunk2]
 ```
-```
-2. 6F/T Sensor
-ROS topic: /robotiq_ft_sensor
-Subscriber: ForceFeedbackSubscriber
-Feedback to Haptic: [HapticPlugin.setForce(deviceName, lateral3, torque3);]
-```
 
-2. Doosan Robot in Unity
+2. Voxelization in Unity    
+
+```   
+Voxel size = 0.01mm
+
+```   
+
+3. Doosan Robot in Unity
 ```
 M1509 (6DOF): URDF
 *Currently with 6FTsensor and Simple Motor-Drill
@@ -36,6 +37,13 @@ ROS topic : /HapticOri [EndEffectorPosePublisher]
 +Other used Assets
  - Grid Material 'https://assetstore.unity.com/packages/2d/textures-materials/gridbox-prototype-materials-129127?srsltid=AfmBOoowjbEvLqTxcaygvjJtN8hxCxJowGYixQxBeUa_0jl3p8vigAHM'
 
+```
+
+4. 6F/T Sensor
+```
+ROS topic: /robotiq_ft_sensor
+Subscriber: ForceFeedbackSubscriber
+Feedback to Haptic: [HapticPlugin.setForce(deviceName, lateral3, torque3);]
 ```
 
 
