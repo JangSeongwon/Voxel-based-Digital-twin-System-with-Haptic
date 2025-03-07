@@ -16,7 +16,7 @@ Use Assets: https://assetstore.unity.com/packages/tools/integration/haptics-dire
 2. Voxelization in Unity    
 
 ```   
-Voxel size = 0.01mm
+Voxel size = 0.1mm
 
 ```   
 
