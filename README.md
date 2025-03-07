@@ -18,6 +18,8 @@ Use Assets: https://assetstore.unity.com/packages/tools/integration/haptics-dire
 ```   
 Voxel size = 0.1mm
 
+Chunk Path: Unity 자료\\I2CPS-M1509\\Assets\\Chunk path
+
 ```   
 
 3. Doosan Robot in Unity
